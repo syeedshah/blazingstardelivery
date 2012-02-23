@@ -1,0 +1,141 @@
+
+	
+h1 {
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	font-size:28px;
+	font-weight:900;
+	color:#ccc;
+	}
+h2 {
+	font:bold 12px/14px verdana, arial, helvetica, sans-serif;
+	margin:0px 0px 5px 0px;
+	padding:0px;
+	}
+p {
+	font:11px/20px verdana, arial, helvetica, sans-serif;
+	margin:0px 0px 16px 0px;
+	padding:0px;
+	}
+.Content>p {margin:0px;}
+.Content>p+p {text-indent:30px;}
+
+a {
+	color:#09c;
+	font-size:11px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-weight:600;
+	text-decoration:none;
+	}
+a:link {color:#09c;}
+a:visited {color:#07a;}
+a:hover {background-color:#eee;}
+  
+
+/* All the content boxes belong to the content class. */
+.content {
+	position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
+	width:610px;
+	min-width:120px;
+	margin:72px -10px 20px 0px;
+	height:775px;
+
+	background-color:white;
+	padding:10px;
+	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
+	height:400px;
+	}
+.content img {
+	width:610px;
+	min-width:600px;
+	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
+	height:400px;
+	
+}
+
+/* All the content boxes belong to the content class. */
+.content2 {
+	margin:0px 0px 10px 0px;
+	background-color:white;
+	padding:10px;
+	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
+	}
+.content2 img {
+	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
+}
+
+#navBeta {
+	position:absolute;
+	width:155px;
+	top:82px;
+	right:0px;
+    height: 780;
+	background-color: transparent;
+	background: url('../images/aside_h.png') repeat-x scroll 0 100% transparent;
+	padding:0px;
+	z-index:1;
+	height: 775px;
+	border: none;
+	border-image: initial;
+/* Again, the ugly brilliant hack. */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:155px;
+	height: 775px;
+	border: none;
+	border-image: initial;
+	}
+/* Again, "be nice to Opera 5". */
+body>#navBeta {width:168px;}
+
+#navBeta aside ul li {
+list-style: none;
+padding-bottom: 5px;
+margin-bottom: 5px;
+background: url('../images/aside_h.png') repeat-x scroll 0 100% transparent;
+font-weight: bold;
+color: #666;
+padding-left: 15px;
+}
+
+aside h2#nav, aside h2#contact, aside h2#areas {
+background-color: #558BC9;
+margin-top: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-bottom: 0;
+padding-left: 15px;
+}
+
+aside h2 {
+margin: 10px 10;
+font-size: 15px;
+line-height: 20px;
+color: white;
+background: url('../images/glo_bnr_fade_blu.gif') repeat-x scroll 0 100% transparent;
+
+}
+
+aside h3 {
+height: 46px;
+line-height: 46px;
+margin: 0 0 0 0;
+display: block;
+text-indent: -9999px;
+background-repeat: no-repeat;
+width: 210px;
+overflow: hidden;
+}
+
+aside h3#phone2 {
+background-image: url('../images/phone2a.png');
+}
+
+aside h3#phone1 {
+background-image: url('../images/phone1a.png');
+}
+
+aside h3#email {
+background-image: url('../images/email2.png');
+}
+
