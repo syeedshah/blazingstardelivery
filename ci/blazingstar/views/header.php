@@ -28,67 +28,56 @@
 	
 <div id='mainContainer'>
 	<div id='headerContainer'>	
-        		<div id="logo">
-					<a href="http://www.blazingstardelivery.com"><img src="media/images/logo.png" width="42" height="55" alt="UPS" border="0"></a>		
-				</div>	
+		<div id="logo">
+			<a href="http://www.blazingstardelivery.com"><img src="media/images/logo.png" width="42" height="55" alt="UPS" border="0"></a>		
+		</div>	
 		
+		
+		<div class="navHeader">
+			<h1>
+				Sheffield Couriers
+			</h1>
+		</div>
+			
 		<!-- begin primary navigation -->
-							<div class="navHeader">
-								<h1>
-									Sheffield Couriers
-								</h1>
-							</div>
-			<div class="nav1Bar">
-							<ul id="nav1">
-									<li class="tab-off" id="navList0">
+		<div id="nav1">
+			<ul>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">Tracking</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Rates</a></li>
+				<li><a href="#">Solutions</a></li>
+				<li><a href="#">Partners</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<!-- end primary navigation -->
 
-									<a id="navImg0" href="#">My Account<img align="bottom" alt="" border="0" src="media/images/1.gif" height="7" width="0"><img align="bottom" alt="" border="0" src="media/images/icn_lock_white.gif" height="8" width="12"></a> 
-		 							</li>
-									<li class="tab-off" id="navList1">
-									<a id="navImg1" href="#">Tracking</a> 
-		 							</li>
-									<li class="tab-off" id="navList2">
-									<a id="navImg2" href="#">Support</a> 
-		 							</li>
-									<li class="tab-off" id="navList3">
-									<a id="navImg3" href="#">Rates</a> 
-		 							</li>
-
-									<li class="tab-off" id="navList4">
-									<a id="navImg4" href="#">Solutions</a> 
-		 							</li>
-									<li class="tab-off" id="navList5">
-									<a id="navImg5" href="#">Partners</a> 
-		 							</li>
-									<li class="tab-off" id="navList6">
-									<a id="navImg6" href="#">Contact Us</a> 
-		 							</li>
-							</ul>
-			</div>
+		<!-- search start -->
+		<div class="navSearch">  
+			<form name="searchForm" action="/login">
+				<input type="hidden" name="loc" value="en_GB">
+				<input type="hidden" name="results" value="25">
+				<input type="hidden" name="view" value="both">
+				<input alt="query" name="query" value="Search" maxlength="512" type="text" onclick="this.value = '';" /> 
+				<input type="submit" value="" name="searchButton" class="btn_a">
+			</form>
+		</div>
+		<!-- search start -->
 		
 	</div>
+	
 	<div style="clear:both"></div>
-				
-	<!-- end primary navigation -->
 
 		
 				
-	<div class="navSearch">  
-		<form name="searchForm" action="/login">
-			<input type="hidden" name="loc" value="en_GB">
-			<input type="hidden" name="results" value="25">
-			<input type="hidden" name="view" value="both">
-		<dl>
-			<dd><input alt="query" name="query" value="Search" maxlength="512" type="text" onclick="this.value = '';" /> <input type="submit" value="" name="searchButton" class="btn_a"></dd>
-		</dl>
-		</form>
-	</div>
+	
 
-<div class="navLogin">
+<!--<div class="navLogin">
   <dl>
   	<dd><a href="#">New User</a><img alt="" border="0" height="1" src="media/images/1.gif" width="3"></dd>
   	<dd>|</dd>
 	<dd><a class="login" id="usb_login_link" href="#">Log-In</a><img alt="" border="0" height="1" src="media/images/1.gif" width="3"></dd>
   </dl>
-</div>
+</div>-->
 
