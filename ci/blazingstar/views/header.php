@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Sheffield Couriers</title>
-	<base href="http://www.blazingstardelivery.com/" />
+	<base href="<?php echo "http://{$_SERVER['SERVER_NAME']}/"; ?>" />
 	<script type="text/javascript" src="media/js/jquery.js"></script>
     <script type="text/javascript" src="media/js/jquery.min.js"></script>
     <script type="text/javascript" src="media/js/jqcloud-0.2.10.js"></script>
@@ -28,7 +28,7 @@
 	
 <div id='mainContainer'>
 	<div id='headerContainer'>	
-        		<div class="logo">
+        		<div id="logo">
 					<a href="http://www.blazingstardelivery.com"><img src="media/images/logo.png" width="42" height="55" alt="UPS" border="0"></a>		
 				</div>	
 		
