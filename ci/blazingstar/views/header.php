@@ -42,7 +42,7 @@
 		<!-- begin primary navigation -->
 		<div id="nav1">
 			<ul>
-				<li><a href="#">My Account</a></li>
+				<li><a href="#" class="active">My Account</a></li>
 				<li><a href="#">Tracking</a></li>
 				<li><a href="#">Support</a></li>
 				<li><a href="#">Rates</a></li>
