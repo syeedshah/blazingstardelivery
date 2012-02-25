@@ -37,7 +37,7 @@ a:hover {background-color:#eee;}
 	position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
 	width:610px;
 	min-width:120px;
-	margin:72px -10px 20px 0px;
+	margin:1px 0px 20px 180px;
 	height:775px;
 
 	background-color:white;

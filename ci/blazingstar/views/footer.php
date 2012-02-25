@@ -34,10 +34,10 @@
 		<div>
 			<strong>Staying Connected</strong>
 				<ul class="connected">
-					<li class="facebook"><a href="http://www.facebook.com/dubaivibe">Become A Fan On Facebook</a></li>
-					<li class="twitter"><a href="http://twitter.com/dubaivibe">Follow Us on Twitter</a></li>
-					<li class="stupidApp"><a href="http://itunes.apple.com/app/stupid-deal-of-the-day/id303679160?mt=8">Stupid Deal iPhone App</a></li>
-					<li class="youTube"><a href="http://www.youtube.com/dubaivibe" target="_blank">YouTube Channel</a></li>
+					<li class="facebook"><a href="http://www.facebook.com/dubaivibe"></a></li>
+					<li class="twitter"><a href="http://twitter.com/dubaivibe"></a></li>
+					<li class="stupidApp"><a href="http://itunes.apple.com/app/stupid-deal-of-the-day/id303679160?mt=8"></a></li>
+					<li class="youTube"><a href="http://www.youtube.com/dubaivibe" target="_blank"></a></li>
 				</ul>
 		</div>
 

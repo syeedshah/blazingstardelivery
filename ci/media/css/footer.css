@@ -115,7 +115,7 @@
 	    margin-top: 6px;
 	}
 	#footer .connected a {
-	    background-image: url("../images/footerIcons.png");
+	    
 	    background-repeat: no-repeat;
 	    display: block;
 	    height: 54px;
@@ -126,23 +126,52 @@
 	    padding-top: 0;
 	}
 	#footer .connected .facebook a {
+		background-image: url("../images/facebook.png");
 	    background-position: 0 -54px;
+		width:100px;
+		height:100px;
+		padding:0px;
+		margin:0px;
 	}
 	#footer .connected .twitter a {
+		background-image: url("../images/twitter.png");
 	    background-position: 0 -108px;
-	    padding-left: 65px;
+	    width:100px;
+		height:100px;
+		padding:0px;
+		margin:0px;
 	}
 	#footer .connected .catalog a {
+		background-image: url("../images/rss.png");
 	    background-position: 0 -162px;
+		width:100px;
+		height:100px;
+		padding:0px;
+		margin:0px;
 	}
 	#footer .connected .stupidApp a {
+		background-image: url("../images/linkedIn.png");
 	    background-position: 0 -216px;
+		width:100px;
+		height:100px;
+		padding:0px;
+		margin:0px;
 	}
 	#footer .connected .harmony a {
+		background-image: url("../images/linkedIn.png");
 	    background-position: 0 -270px;
+		width:100px;
+		height:100px;
+		padding:0px;
+		margin:0px;
 	}
 	#footer .connected .youTube a {
+		background-image: url("../images/linkedIn.png");
 	    background-position: 0 -323px;
+		width:100px;
+		height:100px;
+		padding:0px;
+		margin:0px;
 	}
 	#copyright {
 	    float: left;

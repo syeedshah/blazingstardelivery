@@ -2,7 +2,7 @@ div.jqcloud {
   font-family: "Helvetica", "Arial", sans-serif;
   color: #09f;
   overflow: hidden;
-  position: relative;
+  margin-left:180px;;
 }
 div.jqcloud a {
   color: inherit;

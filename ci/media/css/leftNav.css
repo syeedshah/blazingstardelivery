@@ -4,7 +4,7 @@
   	position:absolute;
 	width:175px;
 	top:72px;
-    left:-190px;
+    margin-left:-10px;
 	padding:10px;
 	z-index:2;
 }
