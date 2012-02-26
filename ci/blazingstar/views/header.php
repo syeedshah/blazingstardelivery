@@ -13,10 +13,6 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="media/css/body.css">
     <link rel="stylesheet" type="text/css" media="screen" href="media/css/footer.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="media/css/form.css">
-    
-
-	
-	<link rel="stylesheet" type="text/css" href="media/css/jqcloud.css" />
    
         
     <meta name="description" content="Fast, Reliable same day courier delivery service in Sheffield and UK. Documents, parcels and freight are collected within 45 minutes of booking. Deliveries are 24 hours a day, 7 days a week.">

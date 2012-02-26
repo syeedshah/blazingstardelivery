@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'localhost:8888/blazingstar/ci/';
+$config['base_url']	= 'http://:www.blazingstardelivery.com/';
 
 /*
 |--------------------------------------------------------------------------

@@ -64,6 +64,13 @@ a:hover {background-color:#eee;}
 	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
 }
 
+# contentHeader {
+	background-color:#EBEBE6;
+	border-bottom-color:#B0A696;
+	border-bottom-style:solid;
+	
+}
+
 #navBeta {
 	position:absolute;
 	width:155px;
