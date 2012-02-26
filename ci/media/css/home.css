@@ -52,11 +52,12 @@ padding-left:15px;
 }
 
 .navHeader h1{
+	font-family: Arial,sans-serif;
 	width:500px;
 	margin-top:-65px;
 	margin-left:160px;
 	color:white;
-	
+	font-size:16pt;
 }
 
 a {
