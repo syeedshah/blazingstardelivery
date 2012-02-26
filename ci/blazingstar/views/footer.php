@@ -40,8 +40,11 @@
 					<li class="youTube"><a href="http://www.youtube.com/dubaivibe" target="_blank"></a></li>
 				</ul>
 		</div>
+</div><!-- end chrome container -->
+</div>
+<!-- end [footer] -->
 
-	<div class="clearfix">
+<div class="clearfix">
 		<div id="copyright">
 			<p>Entire contents Copyright &copy; 2012 Blazing Star Inc.</p>
 			<p>Blazing Star Delivery is a registered trademark of Dubaivibe Inc. All Rights Reserved.</p>
@@ -57,9 +60,7 @@
 			<li><a id="bmlFaq_MF" href="/mf/includes/bmlFaqModal.jsp"><img alt="Bill Me Later" src="media/images/billmelater.png" /></a></li>
 		</ul>
 	</div>
-</div><!-- end chrome container -->
-</div>
-<!-- end [footer] -->
+
 </div>
 <!-- end [main container] -->
 </body>

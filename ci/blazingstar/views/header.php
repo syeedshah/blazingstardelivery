@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Sheffield Couriers</title>
-	<base href="<?php echo "http://{$_SERVER['SERVER_NAME']}:8888/blazingstardelivery/ci/"; ?>" />
+	<base href="<?php echo "http://{$_SERVER['SERVER_NAME']}/"; ?>" />
 	<script type="text/javascript" src="media/js/jquery.js"></script>
     <script type="text/javascript" src="media/js/jquery.min.js"></script>
     <script type="text/javascript" src="media/js/jqcloud-0.2.10.js"></script>
