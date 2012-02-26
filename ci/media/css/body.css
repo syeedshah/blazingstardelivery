@@ -55,7 +55,7 @@ a:hover {background-color:#eee;}
 
 /* All the content boxes belong to the content class. */
 .content2 {
-	margin:-20px 0px 10px 190px;
+	margin:-28px 0px 10px 190px;
 	padding:10px;
 	width:600px;
 	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
@@ -148,7 +148,7 @@ a:hover {background-color:#eee;}
 	margin-left:0px;
 	margin-top: -7px;
 	width: 612px;
-	height: 230px;
+	height: 216px;
 	background-color:linen;
 	border-bottom-color:#B0A696;
 	border-bottom-style:solid;
