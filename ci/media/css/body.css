@@ -162,9 +162,9 @@ a:hover {background-color:#eee;}
 	font-family: Arial,sans-serif;
     font-size: 9pt;
     margin-left: 0px;
-    margin-top: -15px;
+    margin-top: -7px;
     padding-left: 5px;
-    padding-top: 3px
+    padding-top: 0px
 }
 
 
@@ -172,7 +172,7 @@ a:hover {background-color:#eee;}
 	width:602px;
 	height:90px;
 	margin-left: 0px;
-    margin-top: -9px;
+    margin-top: -25px;
     padding-left: 0px;
     padding-top: 3px
 }
@@ -183,7 +183,7 @@ a:hover {background-color:#eee;}
     margin-left: -1px;
     margin-top: 0px;
     padding-left: 5px;
-    padding-top: 3px
+    padding-top: 7px
 }
 
 #navBeta {
@@ -211,7 +211,7 @@ a:hover {background-color:#eee;}
 body>#navBeta {width:168px;}
 
 #navBeta aside ul li {
-list-style: none;
+list-style-type: none;
 padding-bottom: 5px;
 margin-bottom: 5px;
 background: url('../images/aside_h.png') repeat-x scroll 0 100% transparent;
@@ -226,7 +226,7 @@ margin-top: 0;
 padding-top: 5px;
 padding-bottom: 5px;
 margin-bottom: 0;
-padding-left: 15px;
+padding-left: 7px;
 }
 
 aside h2 {
@@ -250,14 +250,14 @@ overflow: hidden;
 }
 
 aside h3#phone2 {
-background-image: url('../images/phone2a.png');
+background-image: url('../images/icon_phonea.gif');
 }
 
 aside h3#phone1 {
-background-image: url('../images/phone1a.png');
+background-image: url('../images/icon_phone.gif');
 }
 
 aside h3#email {
-background-image: url('../images/email2.png');
+background-image: url('../images/icon_mail.gif');
 }
 

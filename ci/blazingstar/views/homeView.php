@@ -17,7 +17,7 @@
 					<h3>The Fuelcard Company</h3>
 					<p>The Fuelcard Company is proud to have teamed up with the Blazing Star Delivery to offer the 'Exchange Fuel Card' to you. As the largest fuel card supplier in the UK, The Fuelcard Company uses their buying power in the market to make fuel management easier and more cost effective for you.
 						
-						Don't let the cost of rising fuel price crush your business, plan ahead, be smart and make every litre count. For more free information on how you could be saving extra in your company contact one of our account managers'</p>
+						Don't let the cost of rising fuel price crush your business, plan ahead, be smart and make every litre count. For more free information on how you could be saving extra in your company contact one of our account managers.</p>
 		<div id=banner>
 		<embed width="612" height="90" align="top" src="http://www.transportexchangegroup.com/flash/fuelcards/fuelcards_banner-790x90.swf" allowscriptaccess="always" alignsaveembedtags="true" quality="high" wmode="transparent" bgcolor="#ffffff" name="760x90" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></div>
 		
