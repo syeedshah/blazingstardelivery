@@ -2,10 +2,9 @@
 $(document).ready(function() {
     $('.content').cycle({
 		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		speed: 2500,
-		timeout:  5000,
+		speed: 5500,
+		timeout:  9000,
 		pause:  1,
-		random: 1
 	});
 });
 </script>
