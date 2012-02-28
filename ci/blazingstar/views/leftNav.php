@@ -1,6 +1,3 @@
-<script type="text/javascript">
-google.load("feeds", "1") //Load Google Ajax Feed API (version 1)
-</script>
 
 <div id='navOuter'>
 <div id='nav'>
@@ -31,13 +28,19 @@ google.load("feeds", "1") //Load Google Ajax Feed API (version 1)
 	<li>Barnsley</li>
 	<li>Leeds</li>
 	<li>Doncaster</li>
-	<li>Chesterfield</li>
+	<li>UK</li>
+	<li>International</li>
 	</ul>
 	
 	<h2 id="contact">Contact</h2>
-	<h3 id="phone2">08000 12 34 56</h3>
-	<h3 id="phone1">07905 325 768</h3>
-	<h3 id="email"><a href="mailto:syed@blazingstardelivery.com">Email Us</a></h3>
+	<ul>
+		<li><img width="16" height="16" border="0" alt="0800 777 768" src="media/images/icon_phone.gif">
+			<a>0800 777 768</a>
+			</li>
+		<li><img width="16" height="16" border="0" alt="07905 325 768" src="media/images/icon_phone.gif">
+			<a>07905 325 768</a></li>
+		<li><img width="16" height="16" border="0" alt="E-mail UPS" src="media/images/icon_mail.gif">
+			<a href="mailto:info AT blazingstardelivery.com">E-mail BDS</a></li>
 	
 	</aside>
 </div>

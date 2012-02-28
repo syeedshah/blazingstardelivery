@@ -37,11 +37,11 @@ a:hover {background-color:#eee;}
 	position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
 	width:610px;
 	min-width:120px;
-	margin:1px 0px 20px 180px;
+	margin:10px 0px 0px 188px;
 	height:775px;
 
 	background-color:white;
-	padding:10px;
+	padding:0px;
 	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
 	height:400px;
 	}
@@ -55,7 +55,7 @@ a:hover {background-color:#eee;}
 
 /* All the content boxes belong to the content class. */
 .content2 {
-	margin:-28px 0px 10px 190px;
+	margin:-3px 0px 10px 186px;
 	padding:10px;
 	width:600px;
 	z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
@@ -118,7 +118,7 @@ a:hover {background-color:#eee;}
 	margin-top: -15px;
 	width: 612px;
 	height: 90px;
-	background-color:linen;
+	background-color:white;
 	border-bottom-color:#B0A696;
 	border-bottom-style:solid;
 	border-left-color:#B0A696;
@@ -141,15 +141,24 @@ a:hover {background-color:#eee;}
 
 #newsP1 img{
 	float:right;
-	margin-top:-8px;
+	margin-top:-15px;
 	margin-right:1px;
+	border-bottom-color:#B0A696;
+	border-bottom-style:solid;
+	border-left-color:#B0A696;
+	border-left-style:solid;
+	border-right-color:#B0A696;
+	border-right-style:solid;
+	border-top-color:#B0A696;
+	border-top-style:solid;
+	border-width:1px;
 }
 #newsP2 {
 	margin-left:0px;
 	margin-top: -7px;
 	width: 612px;
 	height: 216px;
-	background-color:linen;
+	background-color:white;
 	border-bottom-color:#B0A696;
 	border-bottom-style:solid;
 	border-left-color:#B0A696;
@@ -187,12 +196,13 @@ a:hover {background-color:#eee;}
 }
 
 #navBeta {
+	margin-left:-167px;
 	position:absolute;
 	width:155px;
-	top:82px;
+	top:80px;
 	right:0px;
     height: 780;
-	background-color: transparent;
+	background-color: brown;
 	background: url('../images/aside_h.png') repeat-x scroll 0 100% transparent;
 	padding:0px;
 	z-index:1;
@@ -202,7 +212,7 @@ a:hover {background-color:#eee;}
 /* Again, the ugly brilliant hack. */
 	voice-family: "\"}\"";
 	voice-family:inherit;
-	width:155px;
+	width:307px;
 	height: 775px;
 	border: none;
 	border-image: initial;
@@ -249,15 +259,24 @@ width: 210px;
 overflow: hidden;
 }
 
-aside h3#phone2 {
-background-image: url('../images/icon_phonea.gif');
-}
-
-aside h3#phone1 {
+aside li#phone2 {
 background-image: url('../images/icon_phone.gif');
+margin-left:10px;
+margin-top:20px;
 }
 
-aside h3#email {
+
+aside li#phone1 {
+background-image: url('../images/icon_phone.gif');
+margin-left:10px;
+margin-top:10px;
+font-family: Arial,sans-serif;
+font-size: 11pt;
+}
+
+aside li#email {
 background-image: url('../images/icon_mail.gif');
+margin-left:10px;
+margin-top:10px;
 }
 

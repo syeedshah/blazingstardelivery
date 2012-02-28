@@ -26,6 +26,11 @@
 	list-style: none;
 }
 
+#nav li a{
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-size: 15px;
+}
+
 .menu-item {
   background: #fff;
   width: 175px; 

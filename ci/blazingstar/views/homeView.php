@@ -1,7 +1,21 @@
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.content').cycle({
+		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		speed: 2500,
+		timeout:  5000,
+		pause:  1,
+		random: 1
+	});
+});
+</script>
+
 
 <div class="content">
-	<a style="text-decoration:none;">
-		<img width="710" height="400" border="0" alt="Blazing Star Delivery, Quality is our middle name" 				src="media/images/Body1.png"></a>
+		<img width="710" height="400" border="0" alt="Blazing Star Delivery, Quality is our middle name" src="media/images/Body1.png">
+		<img width="710" height="400" border="0" alt="Blazing Star Delivery, Quality is our middle name" src="media/images/content2.jpg">
+		<img width="710" height="400" border="0" alt="Blazing Star Delivery, Quality is our middle name" src="media/images/content3.jpg">
+		<img width="710" height="400" border="0" alt="Blazing Star Delivery, Quality is our middle name" src="media/images/content4.jpg">
 </div>
 
 <div class="content2" style="width: 610px; height: 350px; position: relative;">
@@ -30,4 +44,30 @@
 
 <div id="navBeta">
 	
+		<div class="menu-item alpha">
+		    <div class="menu-item">
+		   		<script type="text/javascript"><!--
+				google_ad_client = "ca-pub-1532072777147280";
+				/* Big Right Nav */
+				google_ad_slot = "5016829147";
+				google_ad_width = 160;
+				google_ad_height = 600;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+		    </div>
+		</div>
+	<!--	<script type="text/javascript">
+	google_ad_client = "ca-pub-1532072777147280";
+Couriers 
+	google_ad_slot = "8811024847";
+	google_ad_width = 120;
+	google_ad_height = 600;
+	
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script> -->
 	</div>

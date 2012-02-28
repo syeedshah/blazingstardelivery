@@ -111,7 +111,7 @@ color: #a90329;
 	top: 5px;
 }
 .navSearch input[type=text] {
-	float: left;
+	float: none;
 }
 .navSearch .btn_a {
 	width:20px;

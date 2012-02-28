@@ -16,6 +16,7 @@
     padding-right: 15px;
     padding-top: 15px;
     width: 940px;
+	height:290px;
 }
 .darkBG #footer {
     background-color: rgba(255, 255, 255, 0.95);
@@ -76,8 +77,9 @@
     padding-top: 0;
 }
 #footer li {
+	list-style:none;
     float: left;
-    width: 260px;
+    width: 220px;
 	margin-left: 25px;
 }
 #footer li.youTube {
@@ -105,8 +107,10 @@
     -moz-text-decoration-style: solid;
 }
 #footer li.last-child {
+	list-style:none;
     float: right;
     width: 192px;
+	margin-top:-108px;
 }
 #footer .img {
     margin-top: 6px;
@@ -114,7 +118,7 @@
 
 #copyright {
     float: left;
-    margin-top: 10px;
+    margin-top: -22px;
     width: 480px;
 }
 #copyright p {
@@ -346,6 +350,8 @@ span.validation_error, span.client_validation {
     display: block;
     height: 128px;
     width: 128px;
+	margin-top:-10px;
+	margin-left:65px;
 }
 #footer .connected .facebook a {
 	background: transparent url("../images/facebook.png") 0 0 no-repeat;
