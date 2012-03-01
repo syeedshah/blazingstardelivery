@@ -49,7 +49,7 @@
 		<div>
 			<strong>Staying Connected</strong>
 				<ul class="connected">
-					<li class="facebook"><a href="http://www.facebook.com/dubaivibe"></a></li>
+					<li class="facebook"><a href="http://www.facebook.com/pages/Blazing-Star-Delivery-LTD/317972411573195#"></a><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.blazingstardelivery.com%2FhomeController&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe></li>
 					<li class="twitter"><a href="http://twitter.com/dubaivibe"></a></li>
 					<li class="stupidApp"><a href="http://itunes.apple.com/app/stupid-deal-of-the-day/id303679160?mt=8"></a></li>
 					<li class="youTube"><a href="http://www.youtube.com/dubaivibe" target="_blank"></a></li>

@@ -11,8 +11,8 @@ class homeController extends CI_Controller {
 	function index()
 	{
 		$this->load->view('header');
-		$this->load->view('leftNav');
-		$this->load->view('homeView');
+		$this->load->view('leftnav');
+		$this->load->view('homeview');
 		$this->load->view('footer');
 	}
 
