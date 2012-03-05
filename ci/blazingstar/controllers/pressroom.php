@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class HomeController extends CI_Controller {
+class PressRoom extends CI_Controller {
 
 	//php5 constructor
 	function _construct(){
@@ -12,7 +12,7 @@ class HomeController extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('leftnav');
-		$this->load->view('homeview');
+		$this->load->view('pressroom');
 		$this->load->view('footer');
 	}
 

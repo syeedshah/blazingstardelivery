@@ -10,8 +10,8 @@
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#" target="_blank">The Team</a></li>
-						<li><span class="magicLink" data-url="#">London 2012 Olympics</span></li>
-						<li><span class="magicLink" data-url="#">PressRoom</span></li>
+						<li><a href="#">London 2012 Olympics</span></li>
+						<li><a href="<?php echo base_url() . 'pressroom'; ?>">PressRoom</span></li>
 					</ul>
 			</li>
 			
@@ -20,30 +20,32 @@
 					<ul>
 						<li><a href="#">Website Usage</a></li>
 						<li><a href="#" target="_blank">Privacy Notice</a></li>
-						<li><span class="magicLink" data-url="#">Protect Against Fraud</span></li>
-						<li><span class="magicLink" data-url="#">Terms &amp; Conditions</span></li>
+						<li><a href="<?php echo base_url() . 'terms'; ?>">Terms &amp; Conditions</span></li>
 					</ul>
 			</li>
 
 			<li>
 				<strong>Support</strong>
 					<ul>
-						<li><span class="magicLink" data-url="#">Contact Us</span></li>
-						<li><span class="magicLink" data-url="#">Careers</span></li>
-						<li><span class="magicLink" data-url="#">Site Guide</span></li>
-						<li><span class="magicLink" data-url="#">Important Links</span></li>
+						<li><a href="<?php echo base_url() . 'contactus'; ?>">Contact Us</span></li>
+						<li><a href="<?php echo base_url() . 'careersform'; ?>">Careers</span></li>
+						<li><a href="<?php echo base_url() . 'sitemap'; ?>">Site Map</span></li>
+						<li><a href="#">important Links</span></li>
 					</ul>
 				</li>	
 
 		<li class="last-child">
 			<strong>Blazing Star Email Alerts</strong>
-				<p>Sign up for courier news, alerts and work.</p>
-					<form action="" method="post">
-						<div style="display:none"><input value="UTF-8" type="hidden" name="_dyncharset"/> </div>
-						<div style="display:none"><input value="4595030169630876950" type="hidden" name="_dynSessConf"/> </div>
-					<label class="inlineLabel" for="newsletter">E-mail Address</label>
-					<div style="display:none"><input value="/decorators/mf-main.jsp.footerNewsleterForm" type="hidden" name="_DARGS"/> </div>
-				</form>
+				<p>Sign up for courier news, alerts and work, enter your Email.</p>
+				<?php	echo validation_errors(); 
+					
+						echo form_open("/emailform");
+						?>
+						   <label for="email"></label>
+						   <input type="text" name="email"><br>
+						 
+						   <input type="submit" name="submit" value="Submit">
+						 </form>
 		</li>
 		</ul>
 		<div>
@@ -66,8 +68,8 @@
 			<p>Entire contents Copyright &copy; 2012 Blazing Star Inc.</p>
 			<p>Blazing Star Delivery is a registered trademark of Dubaivibe Inc. All Rights Reserved.</p>
 		</div>
-	
-	<!-- trophy 	<ul id="credentials">
+	<!--
+	 	<ul id="credentials">
 			<li><a id="bizrateMedal" href="" target="_blank"><img alt="BizRate Customer Certified (GOLD) Site" src="media/images/c.gif" /></a></li>
 			<li>
 			<a href="#"target="_blank"><img src="media/images/25210_coe.gif"alt="Bizrate Circle of Excellence Site - MERCHANT Reviews at Bizrate"width="60" height="85" align="top" border="0" ></a>
@@ -75,7 +77,7 @@
 			<li><a href="#"><img alt="PayPal" src="media/images/paypal.png" /></a></li>
 
 			<li><a id="bmlFaq_MF" href="/mf/includes/bmlFaqModal.jsp"><img alt="Bill Me Later" src="media/images/billmelater.png" /></a></li>
-		</ul>-->
+		</ul> -->
 	</div>
 
 </div>

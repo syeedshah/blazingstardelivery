@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /blazingstardelivery/
+
+Sitemap: http://www.blazingstardelivery.com/sitemap

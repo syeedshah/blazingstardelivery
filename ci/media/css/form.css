@@ -1,45 +1,87 @@
-#page-wrap {
-	width: 660px;
-	background: white;
-	padding: 10px 20px 10px 20px;
-	margin-top: -400px;
-	min-height: 400px;
-	height: auto !important;
-	height: 400px;
+#careerContainer form {
+font-family: "Tahoma", "Geneva", sans-serif;
+color: #929292;
+padding: 10px;
+width: 400px;
+height:250px;
+border:solid 2px;
 }
 
-#contact-area {
-	width: 600px;
-	margin-top: 25px;
+#careerContainer input {
+	border: 1px solid #929292;
+	color: #505050;
+	-webkit-box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+	box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+	-moz-box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	padding: 10px;
+	margin-top:20px;
+	margin-left:20px;
 }
 
-#contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 471px;
-	font-family: Helvetica, sans-serif;
-	font-size: 1.4em;
-	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
+#careerContainer fieldset {
+border: 1px solid #929292;
+padding: 0;
+padding-left: -1px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-border-radius: 5px;
+-khtml-border-radius: 5px;
 }
 
-#contact-area textarea {
-	height: 90px;
+}
+#careerContainer label {
+width: 100px;
+text-align: right;
+display: block;
+float: left;
+margin-right: 10px;
+text-transform: capitalize;
+line-height: 33px;
 }
 
-#contact-area textarea:focus, #contact-area input:focus {
-	border: 2px solid #900;
+
+#careerContainer button, input[type=submit] {
+border: 1px solid #929292;
+color: #505050;
+-webkit-box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+-moz-box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-border-radius: 5px;
+-khtml-border-radius: 5px;
+background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+padding: 10px;
+margin-left:60px;
 }
 
-.submit input {
-	width: 70px;
-	float: right;
+
+careerContainer input {
+margin-top:40px;
+position: relative;
+top: 1px;
 }
 
-label {
-	float: left;
-	text-align: right;
-	margin-right: 15px;
-	width: 100px;
-	padding-top: 5px;
-	font-size: 1.4em;
+}
+#careerContainer select {
+border: 1px solid #929292;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-border-radius: 3px;
+-khtml-border-radius: 3px;
+color: #505050;
+-webkit-box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+box-shadow: #e3e3e3 0.1em 0.1em 0.2em;
+background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+position: relative;
+top: 6px;
+height: 20px;
 }

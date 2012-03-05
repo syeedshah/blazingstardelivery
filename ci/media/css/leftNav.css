@@ -106,15 +106,19 @@ background-color:#007DAD;
 
 /*First Item Styles*/
 .alpha p {
-	padding: 8px 12px;
+	padding: 0px 0px;
 	color: #aaa;
 }
 
 .alpha p a {
-	color: #aaa;
-	font-style: italic;
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-size: 15px;
+	display: block;
+	background-image: url(../images/glo_bnr_fade_blu.gif);
+	color: white;
+	padding:4px;
 }
 
-.alpha p a:hover {
+.alpha p :hover {
 	color: #ccc;
 }

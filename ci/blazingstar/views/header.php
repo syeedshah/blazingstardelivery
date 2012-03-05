@@ -2,11 +2,12 @@
 <html>
 <head>
     <title>Sheffield Couriers</title>
-	<base href="<?php echo "http://{$_SERVER['SERVER_NAME']}:8888/blazingstardelivery/ci/"; ?>" />
+	<base href="<?php echo "http://{$_SERVER['SERVER_NAME']}:/blazingstardelivery/ci/"; ?>" />
 	<script type="text/javascript" src="media/js/jquery.js"></script>
     <script type="text/javascript" src="media/js/jquery.min.js"></script>
  	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://laughingmeme.org/magpierss.rdf" />
  	<link rel="stylesheet" type="text/css" media="screen" href="media/css/home.css"> 
 	<link rel="stylesheet" type="text/css" media="screen" href="media/css/leftNav.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="media/css/body.css">
@@ -28,12 +29,13 @@
 	</script>
 	  
     <meta name="description" content="Fast, Reliable same day courier delivery service in Sheffield and UK. Documents, parcels and freight are collected within 45 minutes of booking. Deliveries are 24 hours a day, 7 days a week.">
-    <meta name="keywords" content="sheffield courier, same day courier, same day courier delivery, same day courier service, same day courier Sheffield, same day courier Bradford, same day courier Barnsley, same day courier Rotherham, same day courier Doncaster, courier same day delivery, courier same day service, same day couriers, sameday couriers, same day courier services, same day courier Manchester, same day courier Leeds,  same day courier Huddersfield">    
+    <meta name="keywords" content="sheffield courier, same day courier, same day courier delivery, same day courier service, same day courier Sheffield, same day courier Bradford, same day courier Barnsley, same day courier Rotherham, same day courier Doncaster, courier same day delivery, courier same day service, same day couriers, sameday couriers, same day courier services, same day courier Manchester, same day courier Leeds,  same day courier Huddersfield, courier,couriers,courier service, Sheffield,same day,next day, overnight,UK,local,National, Europe,European,International,parcel, delivery,parcel collection,parcel courier,documents,pallets,24 hour deliveries,urgent,south yorkshire,
+	same day delivery,delivery service, Rotherham,Barnsley,Worksop,Chesterfield,Doncaster,time sensitive couriers, Freight Forwarding, Freight Forwarders, Freight,Dedicated,Direct,Deliveries,
+	Emergency delivery service,parcel collection and delivery service,collection and delivery service,shipping company,brightside,winkobank,grimesthrope,tinsley,meadowhall,pagehall,shiregreen,firthpark,attercliffe">    
 
 </head>
 
 <body>
-	
 	
 <div id='mainContainer'>
 	<div id='headerContainer'>	
@@ -55,7 +57,7 @@
 				<li><a href="#">Tracking</a></li>
 				<li><a href="#">Support</a></li>
 				<li><a href="#">Rates</a></li>
-				<li><a href="#">Solutions</a></li>
+				<li><a href="#">Services</a></li>
 				<li><a href="#">Partners</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
